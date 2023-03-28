@@ -12,15 +12,7 @@ from .serializers import ItemSerializer
 # creating the view list
 @api_view(['GET'])
 def ApiOverview(request):
-    api_urls = {
-        # 'all_items': '/',
-        # 'Search by Category': '/?category=category_name',
-        # 'Search by Subcategory': '/?subcategory=category_name',
-        # 'Add': '/create',
-        # 'Update': '/update/pk',
-        # 'Delete': '/item/pk/delete',
-        
-        
+    api_urls = { 
         'all_items': '/',
         'Search by studentName': '/?name=student_name',
         'Search by studentRoll': '/?roll=student_roll',

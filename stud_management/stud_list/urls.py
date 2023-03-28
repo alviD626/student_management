@@ -9,12 +9,6 @@ urlpatterns = [
     path('item/<int:pk>/delete/',views.delete_items,name='delete-items'),
 ]
 # {
-#     "category":"food",
-#     "subcategory":"vegetables",
-#     "name":"potato",
-#     "amount":25
-# }
-# {
 #     "name":"alvi",
 #     "roll":15,
 #     "email":"alimostakim68@gmail.com",

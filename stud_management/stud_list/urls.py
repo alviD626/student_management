@@ -9,8 +9,9 @@ urlpatterns = [
     path('item/<int:pk>/delete/',views.delete_items,name='delete-items'),
 ]
 # {
-#     "name":"alvi",
-#     "roll":15,
-#     "email":"alimostakim68@gmail.com",
-#     "group":"engineer"
+#     "id": 3,
+#     "name": "alvi2",
+#     "roll": 15,
+#     "email": "somemail@gmail.com",
+#     "group": "engineer"
 # }
